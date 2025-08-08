@@ -9,10 +9,11 @@ export default function HomePage() {
       <p className="mb-6 text-lg text-gray-600">
         Your central place for portfolio management
       </p>
-      <Link href="/dashboard">
-        <a className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
-          Go to Dashboard
-        </a>
+      <Link
+        href="/dashboard"
+        className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition"
+      >
+        Go to Dashboard
       </Link>
     </main>
   );
